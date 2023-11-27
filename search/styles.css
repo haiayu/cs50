@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #f2f2f2;
+    padding: 10px;
+    text-align: right;
+}
+
+header a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+main {
+    text-align: center;
+    padding: 50px;
+}
+
+#search-bar {
+    width: 300px;
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+#buttons {
+    margin-top: 10px;
+    
+}
+
+#lucky{
+    margin-right: 5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    margin-right: 5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.hide {
+	display: none;
+}
+
+
+
+.advanced-search {
+    width: 500px;
+    margin: auto;
+}
+
+.advanced-search-box {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+
+/* Additional styles to replicate Google's aesthetics */
+#all-words, #exact-phrase, #any-words, #none-words {
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.advanced-search-button {
+    background-color: #0096ff;
+    color: #FFF;
+}
+
